@@ -1,6 +1,7 @@
 # Bitstream-Vera-Sans-Mono
 
 
+```mermaid
 graph LR
     A[User Input] --> B[LLM 1: Extract]
     B --> C{Gate Check}
@@ -8,3 +9,4 @@ graph LR
     C -->|Fail| E[Exit]
     D --> F[LLM 3: Generate Confirmation]
     F --> G[Final Output]
+```
